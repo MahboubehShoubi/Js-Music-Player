@@ -66,13 +66,11 @@ const musics = [
 //----------------------background music Player----------------------------------------------
 
 theme1.addEventListener("click" , (e) => {
-    // e.preventDefault();
     musicPlayer.classList.remove("item2" , "item3");
     musicPlayer.classList.toggle("item1");
 } )
 
 theme2.addEventListener("click" , (e) => {
-    // e.preventDefault();
     musicPlayer.classList.remove("item1" , "item3");
     musicPlayer.classList.toggle("item2");
 
@@ -80,7 +78,6 @@ theme2.addEventListener("click" , (e) => {
 
 
 theme3.addEventListener("click" , (e) => {
-    // e.preventDefault();
     musicPlayer.classList.remove("item1" , "item2");
     musicPlayer.classList.toggle("item3");
 });
